@@ -1,174 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+	<title>Mente Adolescente, los problemas que no sabías que existían</title>
 	<meta charset="utf-8">
-	<title>Las 48 Leyes Del Poder</title>
-<style>
-	body {
-	font-family: Arial;
-	margin: 0;
-	padding: 0;
-	background-color: #8C7E7B;
-	}
-	
-	header {
-	font-family: Black Arial;
-	font-size: 300%;
-	background-color: black;
-	color: white;
-	padding: 1px;
-	text-align: center;
-	}
-	
-	nav {
-	background-color: white;
-	color: red;
-	margin: 0px;
-	padding: 1px;
-	text-align: left;
-	border: 10px solid #ccc;
-	border-radius: 100px;
-	}
-	
-	article {
-	background-color: white;
-	padding: 25px;
-	margin-right: 413px;
-	border: 10px solid #ccc;
-	border-radius: 100px;
-	}
-
-	section {
-	background-color: white;
-	padding: 30px;
-	margin-right: 413px;
-	border: 10px solid #ccc;
-	border-radius: 100px;
-	box-align: left;
-	}
-	
-	aside {
-	background-color: white;
-	float:right;
-	width: 20%;
-	height: 1412px;
-	color: black;
-	padding: 10px;
-	text-align: left;
-	border: 10px solid #ccc;
-	}
-	
-	footer {
-	background-color: white;
-	color: black;
-	padding: 10px;
-	text-align: left;
-border: 10px solid #ccc;
-	}
-	form {
-		text-align: right;
-		text-align-last: right;
-		font-style: Arial Black;
-	}
-	h3{
-		text-align:right;
-	}
-	
-	</style>
-	<script>
-        // Función para procesar el formulario de guardar datos
-        function guardarDatos() {
-            // Obtener los valores de los campos del formulario
-            var nombre = document.getElementById("nombre").value;
-            var apellido = document.getElementById("apellido").value;
-            var ciudad = document.getElementById("ciudad").value;
-            var pais = document.getElementById("pais").value;
-
-            // Aquí puedes realizar acciones adicionales, como enviar los datos a un servidor o mostrarlos en la página
-        }
-
-        // Función para procesar el formulario de búsqueda en Google
-        function buscarGoogle() {
-            var query = document.getElementById("busqueda").value;
-            var url = "https://www.google.com/search?q=" + encodeURIComponent(query);
-            // Redirigir a la página de búsqueda de Google
-            window.location.href = url;
-        }
-    </script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" href="imagenes/logo.ico">
+	<script type="js/jquery.min.js"></script>
 </head>
 <body>
-<header>
-<h1>Las 48 leyes del poder</h1>
-</header>
-<nav>
-<ul>
-<li><a href="Las leyes del poder.html">Las leyes del poder</a></li>
-</ul>
-</nav>
-<aside>
-<h3>Buscar en Google</h3>
-        <form onsubmit="buscarGoogle(); return false;">
-            <input type="text" id="busqueda" placeholder="Buscar en Google">
-            <input type="submit" value="Buscar">
-        </form>
-	<h3>Video de Youtube</h3>
-	<iframe width="370" height="200" src="https://www.youtube.com/embed/YDCzsFIBGHk?si=tNUowFDA06qBmr1S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-	</iframe>
- 	<div class="image-container">
-		<img src="imagenes/image1.jpg" height=286px alt="Imagenes relacionadas con el libro">
-		<img src="imagenes/image2.jpg" width=372 height=400px alt="Imagenes relacionadas con el libro">
-	</div>
-	<h3>Video de Youtube</h3>
-	<iframe width="370" height="200" src="https://www.youtube.com/embed/vAyYnhq5Xvg?si=DUDk7IKjdbstJOar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	<h4>Recursos Adicionales</h4>
-	<ul>
-	<li><a href="https://blog.12min.com/es/las-leyes-de-la-naturaleza-humana-resumen-pdf/">Las leyes de la naturaleza humana</a></li>
-	<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjt5prt65eCAxVlrJUCHVkOBt4QFnoECBYQAQ&url=https%3A%2F%2Fthetowerofscience.com%2Fespanol%2Fresumen-del-libro-el-arte-de-la-seduccion-por-robert-greene-the-art-of-seduction-pdf-epub-gratis-amazon%2F&usg=AOvVaw2DMInoVNAapHphMaIHFiZS&opi=89978449">El arte de la seducción</a></li>
+
+
+
+
+	<header>
+		<div class="jumbotron">
+			<h1><strong>Salud Mental en la Adolescencia</strong></h1>
+			<p>Mejores métodos e información que necesitas sobre la salud mental</p>
+			<form class ="form-inline">
+				<input type="email" size="50" placeholder="Dirección de correo">
+				<button type="button">Suscribirse</button>
+			</form>
+		</div>
+	</header>
+<nav class="negro">
+	<ul class="navegador">
+		<li><a href="misión.html"><span><button type="button">Misión</button></span></a></li>
+		<li><a href="diferentes tipos de trastornos mentales.html"><span><button type="button">Tipos de trastornos mentales</button></span></a></li>
+		<li><a href="cómo cuidar la salud mental.html"><span><button type="button">¿Cómo cuidar la salud mental?</button></span></a></li>
 	</ul>
-	</aside>
-<article>
-<h2>¿Qué son las 48 leyes del poder?</h2>
-<p>Las 48 leyes del poder, es una obra que concentra tres mil años de historia del poder en cuarenta y ocho leyes claras y concisas. Robert Greene detalla las leyes del poder en su escencia más cruda, sintetizando el pensamiento de Maquiavelo, Sun Tzu, Carl von Clausewitz y otros grandes teóricos y estrategas.</p>
-</article>
-<section>
-<h2>Historia del autor del libro, Robert Greene
-</h2>
-<ul>
-<li>Comienza con una pasión</li>
-Robert Greene siempre supo que quería ser escritor, desde muy temprana edad se interesó por la literatura, no sabía sobre qué género, pero estaba decidido a convertirse en escritor. Después de graduarse de la universidad de California, decidió trabajar como periodista, esto le facilitaba mantenerse escribiendo mientras se ganaba la vida. Una manera sencilla de estar cerca de su sueño.
-<li>“Necesitas cambiar de profesión"</li>
-Después de unos años trabajando como escritor y editor para una revista, se reunió con un colaborador quien recién había editado un artículo escrito por Robert Greene. Este señor se sentó y le dijo “Necesitas cambiar de profesión, tu trabajo es muy raro, indisciplinado y no encaja con el estilo de un lector promedio. Busca otro empleo, estudia leyes o negocios, pero no tienes material de escritor” Estas palabras fueron como un golpe al hígado para Robert Greene.
-<li>No es lo mío</li>
-Robert Greene entendió que había trabajado como periodista para ganarse la vida y estar cerca de la escritura, pero este trabajo no encajaba con su mentalidad ni filosofía, entonces entendió lo que debía hacer. Salir de ese trabajo y encontrar su propósito de vida.
-<li>Buscando un propósito</li>
-Robert Greene comenzó una búsqueda por su propósito, en una fase de su vida se dedicó a viajar por Europa, probando una gran cantidad de empleos, desde obrero, traductor de idiomas, editor en revistas y escritor de películas. Probando suerte en diferentes ciudades como Londres, París, Barcelona e Italia.
-<li>La persona correcta en el momento indicado</li>
-A mediados de los años 90, Robert Greene estaba trabajando como editor para una escuela de medios de artes y medios en Italia. Gracias a este trabajo conoció a Joost Elffers, un empaquetador de libros con el que, durante charlas, llegaron a una conclusión sobre el poder. Robert le mostró un proyecto que había estado escribiendo, y entonces juntos crearon un ensayo, del cual surgió el libro Las 48 leyes del poder. Robert Greene menciona que este fue el punto de inflexión que dio un gran cambio en su vida y su carrera profesional como escritor.
-<li>Un éxito internacional</li>
-Robert Greene publicó las 48 leyes del poder en 1998, convirtiéndose en un best seller, vendiendo más de 2.1 millones de copias en EU y traducido a 24 idiomas. Su primer libro tuvo tanto éxito que distintas celebridades lo mencionan como sus libros favoritos o lecturas recomendadas como Michael Jackson, Will Smith, Jay-Z entre otros. Incluso Robert Greene ha comentado en entrevistas que Fidel Castro, el expresidente de Cuba, ha leído su libro.
-<li>Ni bueno, ni malo</li>
-Debido al mensaje de su primer libro, Las 48 leyes del poder ha sido de los libros más solicitados en prisiones americanas, también ha creado distintas controversias a su alrededor y han llegado a calificarlo como maquiavélico. Robert Greene ha comentado que su libro toca materia gris, no es un punto bueno ni malo, simplemente son instrucciones a seguir. Todo queda a consideración del lector al darle uso.
-<li>De ser rechazado a escritor profesional</li>
-Robert Greene colaboro con 50 cent en un libro y más adelante el escribió más libros. Hoy en dia Robert Greene trabaja como consultor para distintas personas famosas en el mundo de los negocios y las artes. Es tan reconocido que se limita a dar asesoramiento a personas que él reconoce por su potencial de éxito.
-</ul>
-<img src="imagenes/Robert Greene.jpg" height=367px>	
-<div class="form-container">
-            <h3>Guardar Datos</h3>
-            <form onsubmit="guardarDatos(); return false;">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br>
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido"><br>
-                <label for="ciudad">Ciudad:</label>
-                <input type="text" id="ciudad" name="ciudad"><br>
-                <label for="pais">País:</label>
-                <input type="text" id="pais" name="pais"><br>
-                <input type="submit" value="Guardar">
-            </form>
-        </div>
-</section>
-<footer>
-&copy; Desarrollo de HTML por: Luisma Quiroz Silva de 3ro A de Secundaria
-</footer>
+</nav>
+
+
+
+
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1><strong>Te contamos acerca de nuestra página</strong></h1>
+				<h3>Esta página web está diseñada para que todo adolescente, o persona en general, logre incrementar sus conocimientos sobre los diferentes desordenes mentales tales como ansiedad, depresión, etc.   
+				Además de proporcionar algunos métodos que lo ayudaran a sobrellevar dicho trastorno. Adicionalmente,tendrá información acerca de los sintomas que se hacen presentes en una persona con dichas condiciones.</h3>
+				<h3>Links con más información:</h3>
+				<a class="btn btn-primary" href="https://www.who.int/es/news-room/fact-sheets/detail/adolescent-mental-health" role="button">OMS</a>
+				<a class="btn btn-primary" href="https://www.lavanguardia.com/vida/junior-report/20210301/6257926/salud-mental-adolescencia-importante.html" role="button">La Vanguardia</a>
+				<a class="btn btn-primary" href="https://cuidateplus.marca.com/familia/adolescencia/2021/06/08/como-cuidar-salud-mental-adolescentes-pandemia-178533.html" role="button">Cuidate Plus</a>
+			</div>
+			<div class="col-sm-4">
+				<img class="fotos" width="10000px" height="10000px" src="imagenes/página principal.jpeg" Alt="Salud Mental">
+			</div>
+		</div>
+	</section>		
+	<footer>
+		<strong> © Desarrollo de HTML por: Luisma Quiroz, Gianella Florian, Alison Palma, Amaral Palacios.</strong>
+	</footer>
 </body>
 </html>
